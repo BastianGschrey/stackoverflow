@@ -1,0 +1,663 @@
+{
+  "datasources":[
+  {
+    "id": 1,
+    "name": "Engine Demand (Accelerator Pedal Position)",
+    "unit": "%"
+  },
+  {
+    "id": 3,
+    "name": "Lateral G",
+    "unit": "G"
+  },
+  {
+    "id": 4,
+    "name": "Longitudinal G",
+    "unit": "G"
+  },
+  {
+    "id": 7,
+    "name": "Air Temp Sensor 2",
+    "unit": "°C"
+  },
+  {
+    "id": 8,
+    "name": "Barometric Pressure",
+    "unit": "kPa"
+  },
+  {
+    "id": 18,
+    "name": "Average Fuel Economy",
+    "unit": "mpg"
+  },
+  {
+    "id": 20,
+    "name": "Boost Control Output",
+    "unit": "%DC"
+  },
+  {
+    "id": 26,
+    "name": "Brake Pressure",
+    "unit": "kPa"
+  },
+  {
+    "id": 29,
+    "name": "Coolant Pressure",
+    "unit": "kPa"
+  },
+  {
+    "id": 31,
+    "name": "Diff Oil Temperature",
+    "unit": "°C"
+  },
+  {
+    "id": 34,
+    "name": "EGT Sensor 1",
+    "unit": "°C"
+  },
+  {
+    "id": 35,
+    "name": "EGT Sensor 2",
+    "unit": "°C"
+  },
+  {
+    "id": 36,
+    "name": "EGT Sensor 3",
+    "unit": "°C"
+  },
+  {
+    "id": 37,
+    "name": "EGT Sensor 4",
+    "unit": "°C"
+  },
+  {
+    "id": 38,
+    "name": "EGT Sensor 5",
+    "unit": "°C"
+  },
+  {
+    "id": 39,
+    "name": "EGT Sensor 6",
+    "unit": "°C"
+  },
+  {
+    "id": 40,
+    "name": "EGT Sensor 7",
+    "unit": "°C"
+  },
+  {
+    "id": 41,
+    "name": "EGT Sensor 8",
+    "unit": "°C"
+  },
+  {
+    "id": 42,
+    "name": "EGT Sensor 9",
+    "unit": "°C"
+  },
+  {
+    "id": 43,
+    "name": "EGT Sensor 10",
+    "unit": "°C"
+  },
+  {
+    "id": 44,
+    "name": "EGT Sensor 11",
+    "unit": "°C"
+  },
+  {
+    "id": 45,
+    "name": "EGT Sensor 12",
+    "unit": "°C"
+  },
+  {
+    "id": 47,
+    "name": "Exhaust Cam Angle 1",
+    "unit": "°"
+  },
+  {
+    "id": 48,
+    "name": "Exhaust Cam Angle 2",
+    "unit": "°"
+  },
+  {
+    "id": 49,
+    "name": "Gear Switch",
+    "unit": ""
+  },
+  {
+    "id": 50,
+    "name": "Decel Cut Active",
+    "unit": ""
+  },
+  {
+    "id": 51,
+    "name": "Transient Throttle Active",
+    "unit": ""
+  },
+  {
+    "id": 52,
+    "name": "Brake Pedal Switch",
+    "unit": ""
+  },
+  {
+    "id": 53,
+    "name": "Clutch Switch",
+    "unit": ""
+  },
+  {
+    "id": 54,
+    "name": "Anti-lag Active",
+    "unit": ""
+  },
+  {
+    "id": 55,
+    "name": "Aux RPM Limiter Active",
+    "unit": ""
+  },
+  {
+    "id": 56,
+    "name": "Flat Shift Switch",
+    "unit": ""
+  },
+  {
+    "id": 57,
+    "name": "Torque Reduction Active",
+    "unit": ""
+  },
+  {
+    "id": 58,
+    "name": "Check Engine Light",
+    "unit": ""
+  },
+  {
+    "id": 59,
+    "name": "Battery Light Active",
+    "unit": ""
+  },
+  {
+    "id": 60,
+    "name": "Engine Limiting Active",
+    "unit": ""
+  },
+  {
+    "id": 60,
+    "name": "Ignition Switch",
+    "unit": ""
+  },
+  {
+    "id": 62,
+    "name": "Nitrous Stage 1 Output State",
+    "unit": ""
+  },
+  {
+    "id": 63,
+    "name": "Nitrous Stage 2 Output State",
+    "unit": ""
+  },
+  {
+    "id": 64,
+    "name": "Nitrous Stage 3 Output State",
+    "unit": ""
+  },
+  {
+    "id": 65,
+    "name": "Nitrous Stage 4 Output State",
+    "unit": ""
+  },
+  {
+    "id": 66,
+    "name": "Nitrous Stage 5 Output State",
+    "unit": ""
+  },
+  {
+    "id": 67,
+    "name": "Nitrous Stage 6 Output State",
+    "unit": ""
+  },
+  {
+    "id": 74,
+    "name": "Ignition Angle Bank 1",
+    "unit": ""
+  },
+  {
+    "id": 75,
+    "name": "Ignition Angle Bank 2",
+    "unit": ""
+  },
+  {
+    "id": 76,
+    "name": "Torque Management Driveshaft RPM Target",
+    "unit": ""
+  },
+  {
+    "id": 77,
+    "name": "Torque Management Driveshaft RPM Target Error",
+    "unit": ""
+  },
+  {
+    "id": 78,
+    "name": "Torque Management Driveshaft RPM Target Error Ignition Correction",
+    "unit": ""
+  },
+  {
+    "id": 79,
+    "name": "Torque Management Driveshaft RPM Timed Ignition Correction",
+    "unit": ""
+  },
+  {
+    "id": 80,
+    "name": "Torque Management Combined Ignition Correction",
+    "unit": ""
+  },
+  {
+    "id": 84,
+    "name": "Fuel Composition",
+    "unit": ""
+  },
+  {
+    "id": 85,
+    "name": "Fuel Consumption Rate",
+    "unit": ""
+  },
+  {
+    "id": 87,
+    "name": "Fuel Flow",
+    "unit": ""
+  },
+  {
+    "id": 88,
+    "name": "Fuel Flow Differential",
+    "unit": ""
+  },
+  {
+    "id": 89,
+    "name": "Fuel Flow Return",
+    "unit": ""
+  },
+  {
+    "id": 100,
+    "name": "Fuel Pressure",
+    "unit": "kPa"
+  },
+  {
+    "id": 101,
+    "name": "Fuel Temperature",
+    "unit": "°C"
+  },
+  {
+    "id": 102,
+    "name": "Fuel Trim Long Term Bank 1",
+    "unit": "%"
+  },
+  {
+    "id": 103,
+    "name": "Fuel Trim Long Term Bank 2",
+    "unit": "%"
+  },
+  {
+    "id": 104,
+    "name": "Fuel Trim Short Term Bank 1",
+    "unit": "%"
+  },
+  {
+    "id": 105,
+    "name": "Fuel Trim Short Term Bank 2",
+    "unit": "%"
+  },
+  {
+    "id": 106,
+    "name": "Gear",
+    "unit": ""
+  },
+  {
+    "id": 119,
+    "name": "Home Counter",
+    "unit": ""
+  },
+  {
+    "id": 126,
+    "name": "Intake Cam Angle 1",
+    "unit": "°"
+  },
+  {
+    "id": 127,
+    "name": "Intake Cam Angle 2",
+    "unit": "°"
+  },
+  {
+    "id": 129,
+    "name": "Injection Stage 1 Duty Cycle",
+    "unit": "%DC"
+  },
+  {
+    "id": 130,
+    "name": "Injection Stage 2 Duty Cycle",
+    "unit": "%DC"
+  },
+  {
+    "id": 131,
+    "name": "Injection Stage 3 Duty Cycle",
+    "unit": "%DC"
+  },
+  {
+    "id": 132,
+    "name": "Injection Stage 4 Duty Cycle",
+    "unit": "%DC"
+  },
+  {
+    "id": 135,
+    "name": "Air Temperature",
+    "unit": "°C"
+  },
+  {
+    "id": 138,
+    "name": "Knock Level Logged",
+    "unit": ""
+  },
+  {
+    "id": 139,
+    "name": "Knock Level Logged 2",
+    "unit": ""
+  },
+  {
+    "id": 140,
+    "name": "Knock Retard - Bank 1",
+    "unit": "°C"
+  },
+  {
+    "id": 141,
+    "name": "Knock Retard - Bank 2",
+    "unit": "°C"
+  },
+  {
+    "id": 142,
+    "name": "Wideband Sensor 1 (Lambda1)",
+    "unit": "λ"
+  },
+  {
+    "id": 143,
+    "name": "Wideband Sensor 2 (Lambda2)",
+    "unit": "λ"
+  },
+  {
+    "id": 144,
+    "name": "Wideband Sensor 3 (Lambda3)",
+    "unit": "λ"
+  },
+  {
+    "id": 145,
+    "name": "Wideband Sensor 4 (Lambda4)",
+    "unit": "λ"
+  },
+  {
+    "id": 146,
+    "name": "Target Lambda",
+    "unit": "λ"
+  },
+  {
+    "id": 147,
+    "name": "Launch Control Fuel Enrich",
+    "unit": "%"
+  },
+  {
+    "id": 148,
+    "name": "Launch Control Ignition Retard",
+    "unit": "°"
+  },
+  {
+    "id": 149,
+    "name": "Ignition Angle (Leading)",
+    "unit": "°"
+  },
+  {
+    "id": 155,
+    "name": "Manifold Pressure",
+    "unit": "kPa"
+  },
+  {
+    "id": 158,
+    "name": "Trigger System Error Count",
+    "unit": ""
+  },
+  {
+    "id": 160,
+    "name": "Wheelspeed Rear",
+    "unit": "kmh"
+  },
+  {
+    "id": 164,
+    "name": "NOS Pressure Sensor 1",
+    "unit": "kPa"
+  },
+  {
+    "id": 169,
+    "name": "Oil Pressure",
+    "unit": "kPa"
+  },
+  {
+    "id": 170,
+    "name": "Oil Temperature",
+    "unit": "°C"
+  },
+  {
+    "id": 179,
+    "name": "RPM",
+    "unit": "RPM"
+  },
+  {
+    "id": 190,
+    "name": "Generic Output 1 Duty Cycle",
+    "unit": "%DC"
+  },
+  {
+    "id": 191,
+    "name": "Fuel Level",
+    "unit": ""
+  },
+  {
+    "id": 192,
+    "name": "Turbo Timer - Time Remaining",
+    "unit": "S"
+  },
+  {
+    "id": 193,
+    "name": "Turbo Timer - Engine Time Remaining",
+    "unit": "S"
+  },
+  {
+    "id": 194,
+    "name": "Steering Wheel Angle",
+    "unit": "°"
+  },
+  {
+    "id": 195,
+    "name": "Driveshaft RPM",
+    "unit": "RPM"
+  },
+  {
+    "id": 196,
+    "name": "NOS Pressure Sensor 2",
+    "unit": "kPa"
+  },
+  {
+    "id": 197,
+    "name": "NOS Pressure Sensor 3",
+    "unit": "kPa"
+  },
+  {
+    "id": 198,
+    "name": "NOS Pressure Sensor 4",
+    "unit": "kPa"
+  },
+  {
+    "id": 199,
+    "name": "Vehicle Speed (General)",
+    "unit": "kmh"
+  },
+  {
+    "id": 200,
+    "name": "Wheelspeed Front",
+    "unit": "kmh"
+  },
+  {
+    "id": 201,
+    "name": "Target Boost Level",
+    "unit": "kPa"
+  },
+  {
+    "id": 203,
+    "name": "Timed Duty Output Duty",
+    "unit": ""
+  },
+  {
+    "id": 204,
+    "name": "Timed Duty Output Duty  2",
+    "unit": ""
+  },
+  {
+    "id": 210,
+    "name": "Throttle Position",
+    "unit": "%"
+  },
+  {
+    "id": 211,
+    "name": "Ignition Angle (Trailing)",
+    "unit": "°"
+  },
+  {
+    "id": 213,
+    "name": "Gearbox Oil Temperature",
+    "unit": "°C"
+  },
+  {
+    "id": 214,
+    "name": "Trigger Counter",
+    "unit": ""
+  },
+  {
+    "id": 215,
+    "name": "Triggers Since Last Home",
+    "unit": ""
+  },
+  {
+    "id": 218,
+    "name": "Turbo Speed Sensor 1",
+    "unit": "RPM"
+  },
+  {
+    "id": 220,
+    "name": "Wastegate Pressure",
+    "unit": "kPa"
+  },
+  {
+    "id": 221,
+    "name": "Coolant Temperature",
+    "unit": "°C"
+  },
+  {
+    "id": 222,
+    "name": "Wheel Diff",
+    "unit": ""
+  },
+  {
+    "id": 223,
+    "name": "Wheel Slip",
+    "unit": ""
+  },
+  {
+    "id": 224,
+    "name": "Wheel Speed Front Left",
+    "unit": ""
+  },
+  {
+    "id": 225,
+    "name": "Wheel Speed Front Right",
+    "unit": ""
+  },
+  {
+    "id": 226,
+    "name": "Wheel Speed Rear Left",
+    "unit": ""
+  },
+  {
+    "id": 227,
+    "name": "Wheel Speed Rear Right",
+    "unit": ""
+  },
+  {
+    "id": 228,
+    "name": "Battery Voltage",
+    "unit": "V"
+  },
+  {
+    "id": 260,
+    "name": "Turbo Speed Sensor 2",
+    "unit": "RPM"
+  },
+  {
+    "id": 261,
+    "name": "Generic Sensor 1",
+    "unit": ""
+  },
+  {
+    "id": 262,
+    "name": "Generic Sensor 2",
+    "unit": ""
+  },
+  {
+    "id": 263,
+    "name": "Generic Sensor 3",
+    "unit": ""
+  },
+  {
+    "id": 264,
+    "name": "Generic Sensor 4",
+    "unit": ""
+  },
+  {
+    "id": 265,
+    "name": "Generic Sensor 5",
+    "unit": ""
+  },
+  {
+    "id": 266,
+    "name": "Generic Sensor 6",
+    "unit": ""
+  },
+  {
+    "id": 267,
+    "name": "Generic Sensor 7",
+    "unit": ""
+  },
+  {
+    "id": 268,
+    "name": "Generic Sensor 8",
+    "unit": ""
+  },
+  {
+    "id": 269,
+    "name": "Generic Sensor 9",
+    "unit": ""
+  },
+  {
+    "id": 270,
+    "name": "Generic Sensor 10",
+    "unit": ""
+  },
+  {
+    "id": 271,
+    "name": "Gearbox Oil Pressure",
+    "unit": "kPa"
+  },
+  {
+    "id": 274,
+    "name": "Crank Case Pressure",
+    "unit": "kPa"
+  },
+  {
+    "id": 275,
+    "name": "Race Timer",
+    "unit": "S"
+  }
+]}

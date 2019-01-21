@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>qml/gauges/createSquareGaugeScript.js</file>
+        <file>qml/gauges/squaregauge.qml</file>
+    </qresource>
+</RCC>
